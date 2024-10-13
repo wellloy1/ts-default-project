@@ -1,0 +1,25 @@
+{
+  "name": "ts-default-project",
+  "version": "1.0.0",
+  "author": "Max Shane <wellloy1@gmail.com>",
+  "scripts": {
+    "start": "node dist/setup.js",
+    "dev": "tsc && nodemon dist/setup.js",
+    "build": "tsc --declaration --declarationDir types",
+    "watch": "tsc -w",
+    "reexp": "node scripts/reexp.js"
+  },
+  "_moduleAliases": {
+  },
+  "types": "types",
+  "description": "",
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/ws": "^8.5.12",
+    "ts-node": "^10.9.1",
+    "module-alias": "^2.2.3"
+  }
+}
