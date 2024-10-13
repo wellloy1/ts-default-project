@@ -1,7 +1,16 @@
 {
   "name": "ts-default-project",
   "version": "1.0.0",
-  "author": "Max Shane <wellloy1@gmail.com>",
+  "author": "Max Shane <wellloy1@gmail.com>",  
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wellloy1/ts-default-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wellloy1/ts-default-project/issues",
+    "email": "wellloy1@gmail.com"
+  },
   "scripts": {
     "start": "node dist/setup.js",
     "dev": "tsc && nodemon dist/setup.js",
@@ -12,7 +21,7 @@
   "_moduleAliases": {
   },
   "types": "types",
-  "description": "",
+
   "dependencies": {
     "module-alias": "^2.2.3"
   },
